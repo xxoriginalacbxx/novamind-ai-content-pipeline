@@ -4,9 +4,9 @@ All prompts used throughout the content pipeline.
 
 ## Files
 - `blog-generation-prompt.txt` - Main blog post generation + Newsletters
-  - `newsletter-founders-prompt.txt` - Founders-focused newsletter
-  - `newsletter-creatives-prompt.txt` - Creatives-focused newsletter
-  - `newsletter-operations-prompt.txt` - Operations-focused newsletter
+  - Founders-focused newsletter
+  - Creatives-focused newsletter
+  - Operations-focused newsletter
 - `analytics-prompt.txt` - Weekly performance analysis
 - `occupation-categorization-prompt.txt` - Subscriber categorization
 
