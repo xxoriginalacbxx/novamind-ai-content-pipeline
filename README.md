@@ -238,12 +238,13 @@ The system tracks and optimizes:
 🔮 Future Enhancements
 Potential improvements:
 
- A/B testing for subject lines
- Social media post generation from blog content
- Slack integration for real-time alerts
- Dashboard UI for visualizing trends
- Multi-language support
- Custom CRM integration beyond Mailchimp
+ - A/B testing for subject lines
+ - Social media post generation from blog content
+ - Slack integration for real-time alerts
+ - Dashboard UI for visualizing trends
+ - Multi-language support
+ - Custom CRM integration beyond Mailchimp
+
 📝 Project Notes
 Assignment Context: This is a take-home assignment demonstrating:
 
