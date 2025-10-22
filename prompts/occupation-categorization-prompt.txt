@@ -1,0 +1,16 @@
+You are a persona categorization system. Analyze job titles and occupations to categorize contacts into marketing personas. Return only valid JSON.
+
+Categorize this occupation into one of these personas:
+
+Occupation: {{1.answers.`6ec8a37a`}}
+
+Personas:
+- "Founders / Decision-Makers" = Founders, CEOs, Co-founders, Owners, Managing Directors, Presidents, Entrepreneurs
+- "Creative Professionals" = Designers, Creatives, Art Directors, Content Creators, UX/UI, Video Editors, Copywriters, Brand Managers
+- "Operations Managers" = Operations Managers, Project Managers, COOs, Systems Administrators, IT Managers, Process Managers, Technical Directors
+- "none" = Students, Unemployed, Retired, or cannot determine
+
+Return ONLY this JSON (no other text):
+{
+  "category": "founder|creative|operations|none"
+}
