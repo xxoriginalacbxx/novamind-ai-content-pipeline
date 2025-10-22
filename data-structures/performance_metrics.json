@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Performance Metrics Store",
+  "description": "Email campaign performance data for each persona",
+  "example": {
+    "campaign_id": "e2e1235cae",
+    "persona": "founders",
+    "blog_topic": "AI in creative automation",
+    "blog_headline": "How AI is Transforming Creative Workflows",
+    "subject_line": "Boost ROI: AI Cuts Creative Costs by 40%",
+    "send_date": "2025-01-21T10:00:00Z",
+    "checked_date": "2025-01-22T09:00:00Z",
+    "emails_sent": 150,
+    "opens_total": 68,
+    "unique_opens": 64,
+    "open_rate": 42.3,
+    "clicks_total": 18,
+    "unique_clicks": 17,
+    "click_rate": 11.2,
+    "unsubscribes": 0,
+    "unsubscribe_rate": 0.3,
+    "bounces": 2,
+    "bounce_rate": 1.3
+  },
+  "notes": [
+    "One record per persona per campaign",
+    "Collected 24 hours after send",
+    "Rates stored as percentages (42.3 = 42.3%)"
+  ]
+}
