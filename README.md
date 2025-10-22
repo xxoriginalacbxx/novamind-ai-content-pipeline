@@ -228,12 +228,13 @@ Self-healing workflow (continues even if one persona fails)
 🎯 Results & Metrics
 The system tracks and optimizes:
 
-✅ Open rates by persona
-✅ Click rates by persona
-✅ Content topic performance
-✅ Subject line effectiveness
-✅ Subscriber growth and segmentation
-✅ Week-over-week improvements
+- ✅ Open rates by persona
+- ✅ Click rates by persona
+- ✅ Content topic performance
+- ✅ Subject line effectiveness
+- ✅ Subscriber growth and segmentation
+- ✅ Week-over-week improvements
+
 🔮 Future Enhancements
 Potential improvements:
 
