@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Optimization Insights Store",
+  "description": "AI-generated weekly analysis and recommendations",
+  "example": {
+    "analysis_date": "2025-01-27T09:00:00Z",
+    "period_start": "2024-12-30",
+    "period_end": "2025-01-27",
+    "total_campaigns": 4,
+    "summary": "Creatives showed strongest engagement at 48.7% open rates, 15% above other personas. Time-saving tool content consistently outperformed high-level concepts. Operations engagement declining—needs more technical depth.",
+    "founders_insight": "ROI-focused content with specific numbers performs best (42% avg open rate). Recommendation: Write case study blog with concrete metrics like '3 Agencies Achieved 200% ROI in 90 Days' and use numeric subject lines.",
+    "creatives_insight": "Inspirational, visual content drives highest engagement (48.7% open rate, 14.8% click rate). Recommendation: Create more tool showcase content with before/after examples, and test sending at 10am for 18% better engagement.",
+    "operations_insight": "Technical content underperforming with 38.5% opens and 0.4% unsubscribe rate. Recommendation: Create deeper integration guides with code examples and reduce email frequency to bi-weekly to combat fatigue.",
+    "next_topic": "Write '5 AI Design Tools That Paid for Themselves in Week 1' targeting Creatives (top performer). Include visual examples, specific time-savings, and practical implementation steps."
+  },
+  "notes": [
+    "Generated weekly by Scenario 3",
+    "Fed back to Scenario 1 for context-aware content generation",
+    "Stores actionable recommendations for each persona"
+  ]
+}
