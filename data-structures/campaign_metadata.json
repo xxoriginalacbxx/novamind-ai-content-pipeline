@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Campaign Metadata Store",
+  "description": "Complete campaign information including content and distribution data",
+  "example": {
+    "campaign_id_founders": "e2e1235cae",
+    "campaign_id_creatives": "ee5429c39d",
+    "campaign_id_operations": "b392bf1c12",
+    "blog_topic": "AI in creative automation",
+    "blog_headline": "How AI is Transforming Creative Workflows",
+    "blog_content": {
+      "introduction": "The creative industry is experiencing...",
+      "section1_title": "Automating Repetitive Tasks",
+      "section1_content": "Creative professionals spend 40%...",
+      "section2_title": "Enhancing Creative Ideation",
+      "section2_content": "AI amplifies human creativity...",
+      "section3_title": "Streamlining Collaboration",
+      "section3_content": "Modern AI tools transform communication...",
+      "conclusion": "The future of creative work..."
+    },
+    "newsletter_content": {
+      "founders": {
+        "subject": "Boost ROI: AI Cuts Creative Costs by 40%",
+        "preview_text": "See how leading agencies save time and money",
+        "body_html": "<html>...</html>",
+        "cta_text": "Book a Demo",
+        "cta_url": "https://novamind.ai/demo"
+      },
+      "creatives": {
+        "subject": "AI Tools That Actually Inspire Creativity",
+        "preview_text": "More time for what you love",
+        "body_html": "<html>...</html>",
+        "cta_text": "Get Inspired",
+        "cta_url": "https://novamind.ai/creative"
+      },
+      "operations": {
+        "subject": "Integrate AI: Proven Workflow Optimization",
+        "preview_text": "Real metrics from agencies",
+        "body_html": "<html>...</html>",
+        "cta_text": "See Integrations",
+        "cta_url": "https://novamind.ai/integrations"
+      }
+    },
+    "send_date": "2025-01-21T10:00:00Z",
+    "status": "sent",
+    "sheet_row_id": "2"
+  }
+}
