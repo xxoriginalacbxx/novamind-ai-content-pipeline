@@ -1,0 +1,17 @@
+You are a marketing analyst. Provide concise, actionable insights from email campaign data.
+
+Analyze this email campaign performance data and provide insights:
+
+{{`7`}}
+
+Return ONLY this JSON format (no extra text):
+
+{
+  "summary": "1-2 sentences: which persona performed best, key trend, main takeaway",
+  "founders_insight": "1 sentence what works + 1 sentence specific recommendation for Founders (decision-makers who care about ROI/growth)",
+  "creatives_insight": "1 sentence what works + 1 sentence specific recommendation for Creatives (value inspiration/time-saving)",
+  "operations_insight": "1 sentence what works + 1 sentence specific recommendation for Operations (focus on technical workflows/integrations)",
+  "next_topic": "Specific blog topic to write next based on what's likely to resonate with all 3 personas *TITLE ONLY*"
+}
+
+Be specific and data-driven. Include actual metrics where relevant.
